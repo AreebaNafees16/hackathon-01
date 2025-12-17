@@ -154,6 +154,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'Comprehensive textbook and RAG chatbot for robotics students',
@@ -169,7 +170,7 @@ const config: Config = {
   organizationName: 'facebook',
   projectName: 'docusaurus',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',

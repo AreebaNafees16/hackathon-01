@@ -27,7 +27,7 @@ export default function Home() {
           />
 
           <div className={styles.buttons}>
-            <Link className="button button--primary button--lg" to="/docs/basics/intro">
+            <Link className="button button--primary button--lg" to="/docs/basics/01-intro">
               Start Reading
             </Link>
             <Link className="button button--secondary button--lg" to="/docs/humanoid/capstone">
@@ -117,7 +117,7 @@ export default function Home() {
             <h2>Get Started Today!</h2>
             <p>Start reading the textbook or try the interactive RAG Chatbot to learn robotics practically.</p>
             <div className={styles.buttons}>
-              <Link className="button button--primary button--lg" to="/docs/basics/intro">
+              <Link className="button button--primary button--lg" to="/docs/basics/01-intro">
                 Start Reading
               </Link>
               <Link className="button button--success button--lg" to="/chatbot">
