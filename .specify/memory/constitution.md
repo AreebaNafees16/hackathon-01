@@ -1,55 +1,80 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+---
+Sync Impact Report
+---
+- Version: 0.0.0 → 1.0.0
+- Added Principles:
+  - High Technical Accuracy
+  - Clear Explanations
+  - Reproducible Code
+  - Grounded in Reality
+  - Content Validation
+  - Runnable Code Examples
+  - Docusaurus Compliance
+  - Grounded Chatbot
+  - Mandatory Citations
+- Added Sections:
+  - Key Project Constraints
+  - Success Criteria
+- Templates requiring updates:
+  - ⚠ .specify/templates/plan-template.md
+  - ⚠ .specify/templates/spec-template.md
+  - ⚠ .specify/templates/tasks-template.md
+- Follow-up TODOs:
+  - TODO(RATIFICATION_DATE): Set initial adoption date.
+-->
+
+# Book + RAG Chatbot System for “Physical AI & Humanoid Robotics” Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. High Technical Accuracy
+All technical content must be accurate and validated against official documentation and sources for technologies including ROS 2, Gazebo, Unity, Isaac Sim, VSLAM, Nav2, and VLAs.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clear Explanations
+Explanations of robotics and AI concepts must be consistent, clear, and targeted at a student audience.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Reproducible Code
+All code and simulation examples provided must be reproducible by readers.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Grounded in Reality
+The system must not produce hallucinated APIs, libraries, or robotics concepts. All information must be verifiable.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Content Validation
+All content must be validated with official sources.
 
-### [PRINCIPLE_6_NAME]
+### VI. Runnable Code Examples
+Each chapter must include runnable code examples using ROS 2 (rclpy), Python, FastAPI, and/or JavaScript/TypeScript.
 
+### VII. Docusaurus Compliance
+The project structure and content must be compliant with Docusaurus for proper rendering and deployment.
 
-[PRINCIPLE__DESCRIPTION]
+### VIII. Grounded Chatbot
+The RAG chatbot must only answer questions based on the content of the book or user-selected text.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### IX. Mandatory Citations
+Citations are required for all major claims and technical assertions.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Key Project Constraints
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+- **Book Structure:** The book will consist of 8–12 chapters, with a total word count of approximately 35,000 words.
+- **Chapter Content:** Each chapter must include runnable code, diagrams, and a minimum of three references.
+- **Generation Tools:** The primary tools for content generation will be Spec-Kit Plus and Claude Code.
+- **Technology Stack:**
+  - **Frontend/Deployment:** Docusaurus and GitHub Pages
+  - **Backend API:** FastAPI
+  - **Chatbot Framework:** OpenAI Agents/ChatKit SDK
+  - **Database:** Neon Postgres and Qdrant Cloud
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Success Criteria
+
+- **Deployment:** The book must deploy successfully to GitHub Pages without any build or rendering errors.
+- **Chatbot Functionality:** The RAG chatbot must be fully functional and its responses strictly grounded in the book's text.
+- **Technical Coverage:** The content must provide accurate and comprehensive coverage of all specified modules (ROS 2, Gazebo/Unity, Isaac Sim, VLA).
+- **Capstone Project:** The final capstone project, a humanoid robot workflow, must be implementable from end-to-end based on the book's guidance.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Amendments to this constitution require documented discussion, a clear rationale, and an approved migration plan for any affected project components. All development activities, reviews, and automated checks must verify compliance with these principles.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): Set initial adoption date. | **Last Amended**: 2025-12-11

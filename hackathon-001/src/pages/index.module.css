@@ -1,0 +1,224 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/* .heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+.heroImage {
+  width: 100%;       /* full width of container */
+  max-width: 600px;  /* optional max width */
+  margin: 20px auto; /* center image */
+  display: block;
+  max-width: 600px;
+}
+
+
+/* HERO */
+.heroBanner {
+  background: linear-gradient(135deg, #0a2540, #18254a);
+  color: #ffffff;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: #e5edff;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.buttons :global(.button) {
+  border-radius: 9999px;
+  padding: 0.75rem 2rem;
+  background: #ffffff;
+  color: #0a2540;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.buttons :global(.button):hover {
+  background: #e5edff;
+}
+
+/* MAIN */
+.main {
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+
+/* SECTION TITLES */
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #0a2540;
+}
+
+/* CTA */
+.ctaSection {
+  background: #0a2540;
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  margin-top: 4rem;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.sectionAlt {
+  padding: 80px 20px;
+  background: #f5f7fb;
+}
+
+.section h2,
+.sectionAlt h2,
+.cta h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #1e5feb;  
+}
+
+/* TEXT */
+.text {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  color: #475569;
+  font-size: 1.05rem;
+}
+
+/* FEATURES */
+.featuresGrid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 24px;
+}
+
+.featureCard {
+  background: #ffffff;
+  padding: 28px;
+  color: #475569;
+  border-radius: 16px;
+  border: 1px solid #13238b;
+  box-shadow: 0 10px 24px rgba(14, 52, 220, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-6px);
+}
+
+.featureCard h3 {
+  color: #172c65;
+  margin-bottom: 8px;
+}
+
+/* IMPACT */
+.impactGrid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.impactCard {
+  padding: 22px;
+  background: #ffffff;
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid #13243a;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+
+.focusList {
+  max-width: 720px;
+  margin: 50px auto 0;
+  list-style: none;
+  padding: 0;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 12px 30px rgba(2, 6, 23, 0.08);
+  overflow: hidden;
+}
+
+.focusList li {
+  position: relative;
+  padding: 18px 22px 18px 56px;
+  font-size: 1.05rem;
+  color: #0f172a;
+  border-bottom: 1px solid #e2e8f0;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+/* Remove border from last item */
+.focusList li:last-child {
+  border-bottom: none;
+}
+
+/* Icon dot */
+.focusList li::before {
+  content: "▸";
+  position: absolute;
+  left: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #101b34;
+  font-size: 1.2rem;
+}
+
+
+/* Hover effect */
+.focusList li:hover {
+  background: #f5f7fb;
+  transform: translateX(6px);
+}
+
+
+
+
+
+
+

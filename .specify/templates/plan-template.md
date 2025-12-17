@@ -31,7 +31,15 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **I. High Technical Accuracy**: All technical content is validated against official sources.
+- [ ] **II. Clear Explanations**: Explanations are clear, consistent, and aimed at the target audience.
+- [ ] **III. Reproducible Code**: All code and simulations are reproducible.
+- [ ] **IV. Grounded in Reality**: No hallucinated or unverified APIs, concepts, or facts.
+- [ ] **V. Content Validation**: All content is validated with official sources.
+- [ ] **VI. Runnable Code Examples**: Chapters include runnable code in the specified languages.
+- [ ] **VII. Docusaurus Compliance**: The structure is compatible with Docusaurus.
+- [ ] **VIII. Grounded Chatbot**: Chatbot responses are strictly based on the book's text.
+- [ ] **IX. Mandatory Citations**: Major claims are backed by citations.
 
 ## Project Structure
 
